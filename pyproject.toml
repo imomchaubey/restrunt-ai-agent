@@ -1,0 +1,17 @@
+[project]
+name = "day19"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Om Prakash Chaubey", email = "om.chaubey65@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+day19 = "day19:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
